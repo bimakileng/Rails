@@ -1,0 +1,20 @@
+1.	int + int = int example 2+3=5
+	float+float=float example 2.5+3.2=5.8
+	float+int=float example 3.5+2=5.5
+	Strings are concatenated not added 
+
+2. x*y/z+y   x*(y+x)/z
+	the evaluations are not the same due to the order of precence of operators
+
+3. 	In the focus 1.0 appeared first and therefore the interpreter that it was dealing with floats, whereas in the second 	case 5 an integer comes first therefore the interpreter assumes it's dealin with integers. as such an integer is 		returned
+
+4. a) x=4 	b) x=4.5
+
+5.a)	a=3, b=2, c=a/b ->(3/2)=1			b)a=5, b=2, c=a/b-> (5/2)=2
+
+6. avg_temp = temp_winter + temp_spring + temp_summer + temp_f/4
+in this statement there is a logical error in that only temp_f is divided by 4 the only way to correct this is introducing parenthesis like this;
+avg_temp = (temp_winter + temp_spring + temp_summer + temp_f)/4
+
+
+7. Logical errors occur as a result of misrepresentation of data in a program in otherwords the program will compile and run but will give wrong output, example if you write a/b instead of a%b. Whereas syntax  errors occur due to type mismath according to compilation or interpretation rules of the programming language. example a="Hello",b=3 c=a/b
